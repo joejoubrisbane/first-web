@@ -426,8 +426,7 @@ textarea {
 }
 
 .page-section--testimonial{
-  background-image: url('/app/assets/images/testimonials-bg.jpg');
-  background-repeat: no-repeat;
+  background-image: url('/app/assets/images/testimonials-bg.jpg');/* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
 }
@@ -788,5 +787,31 @@ a {
 
   .feature-item--text {
     padding-left: 3%;
+  }
+}
+
+.testimonial{
+    background-color:rgba(255,255,255,0.8);
+    padding: 0 1.85rem 1px 1.85rem;
+}
+
+@media (min-width:800px){
+
+  .flex {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width:800px){
+
+  .flex--medium-4 {
+    -ms-flex-preferred-size: 28%;
+        flex-basis: 28%;
   }
 }

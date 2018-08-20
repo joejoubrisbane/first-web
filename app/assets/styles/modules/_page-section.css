@@ -2,7 +2,7 @@
     padding: 1rem 0;
     &--testimonial{
         background-image: url('/app/assets/images/testimonials-bg.jpg');
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         background-size: cover;
         background-position: center;
         
