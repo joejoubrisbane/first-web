@@ -3,7 +3,9 @@
   font-size: 2.5rem;
   font-weight: 300;
   
-
+  &--blue{
+    color: $mainBlue;
+  }
   strong {
     font-weight: 500;
   }
@@ -11,6 +13,9 @@
   &__icon {
     
     display: block;
+    position: relative;
+    top:12px;
+    right: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.6rem;
