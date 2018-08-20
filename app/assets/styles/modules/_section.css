@@ -1,0 +1,38 @@
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  
+
+  strong {
+    font-weight: 500;
+  }
+
+  &__icon {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.6rem;
+    
+  }
+
+  @media (min-width: $small) {
+    font-size: 3.75rem;
+    font-weight: 300;
+
+    strong {
+      font-weight: 500;
+    }
+
+    &__icon {
+      margin-right: 1rem;
+      
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    
+    }
+  }
+  
+}

@@ -1,0 +1,18 @@
+.feature-item {
+    text-align: center;
+    &--text{
+        p{
+            text-align: left;
+        }
+    }
+  
+  
+  @media (min-width: $small) {
+    display: flex;
+    justify-content: center;
+    
+    &--text {
+      padding-left: 3%;
+    }
+  }
+}
