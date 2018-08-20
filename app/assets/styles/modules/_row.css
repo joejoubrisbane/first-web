@@ -21,6 +21,12 @@
     &__medium-8-enlarge {
         width: 62.6%;
     }
+    &__medium-6 {
+    
+      float: left;
+      width: 50%;
+      padding:5%;
+    }
   }
 
   &--gutter > div {

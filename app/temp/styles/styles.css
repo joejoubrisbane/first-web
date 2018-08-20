@@ -461,7 +461,7 @@ html {
 
 * {
   box-sizing: border-box;
-  color:#333;
+  
 }
 
 a {
@@ -576,6 +576,10 @@ a {
     overflow: hidden;
 }
 
+.wrapper--color-white{
+  color: white;
+}
+
 .wrapper--medium {
   max-width: 976px;
 }
@@ -677,6 +681,12 @@ a {
   .row__medium-8-enlarge {
     width: 62.6%;
   }
+
+  .row__medium-6 {
+    float: left;
+    width: 50%;
+    padding:5%;
+  }
 }
 
 .row--gutter > div {
@@ -706,4 +716,63 @@ a {
 
 .generic-content-container p a {
   font-weight: 700;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  
+}
+
+.section-title strong {
+  font-weight: 500;
+}
+
+.section-title__icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.6rem;
+}
+
+@media (min-width: 530px) {
+
+  .section-title {
+    font-size: 3.75rem;
+    font-weight: 300;
+  }
+
+  .section-title strong {
+    font-weight: 500;
+  }
+
+  .section-title__icon {
+    margin-right: 1rem;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item--text p{
+  text-align: left;
+}
+
+@media (min-width: 530px) {
+
+  .feature-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+
+  .feature-item--text {
+    padding-left: 3%;
+  }
 }
