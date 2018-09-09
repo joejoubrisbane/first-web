@@ -425,6 +425,19 @@ textarea {
     padding: 1rem 0;
 }
 
+.page-section--testimonial{
+  background-color: #e0e6ef;
+}
+
+@media (min-width:800px){
+
+  .page-section--testimonial {
+    background-image: url('/app/assets/images/testimonials-bg.jpg');/* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 @media (min-width:530px){
 
   .page-section {
@@ -722,7 +735,12 @@ a {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 300;
+  margin: 0;
   
+}
+
+.section-title--blue{
+  color: #2f5572;
 }
 
 .section-title strong {
@@ -731,6 +749,9 @@ a {
 
 .section-title__icon {
   display: block;
+  position: relative;
+  top:12px;
+  right: 15px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.6rem;
@@ -774,5 +795,76 @@ a {
 
   .feature-item--text {
     padding-left: 3%;
+  }
+}
+
+.testimonial {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.85rem 1px 1.85rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 800px) {
+
+  .testimonial {
+    padding: 0 1.85rem 1px 1.85rem;
+  }
+}
+
+.testimonial__photo {
+  border-radius: 80px;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+
+  .testimonial__photo {
+    margin: 0 auto -80px auto;
+    position: relative;
+    top: -80px;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+  }
+}
+
+.testimonial__title {
+  color: #2f5572;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.testimonial__subtitle {
+  color: #d59541;
+  text-align: center;
+  font-size: 1.0rem;
+  font-weight: 400;
+  margin: 0.25rem 0 1rem 0;
+}
+
+@media (min-width:800px){
+
+  .flex {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width:800px){
+
+  .flex--medium-4 {
+    -ms-flex-preferred-size: 28%;
+        flex-basis: 28%;/* padding-top: 500px; */
+    margin-top: 120px;
+    display: -ms-flexbox;
+    display: flex;
   }
 }

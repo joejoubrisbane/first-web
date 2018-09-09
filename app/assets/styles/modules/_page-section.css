@@ -1,5 +1,15 @@
 .page-section {
     padding: 1rem 0;
+    &--testimonial{
+        background-color: #e0e6ef;
+        
+        @media (min-width:$medium){
+        background-image: url('/app/assets/images/testimonials-bg.jpg');
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-position: center;
+        }
+    }
     
     @media (min-width:$small){
         padding: 4.5rem 0;

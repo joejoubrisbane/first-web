@@ -5,6 +5,7 @@
     display: table;
   }
 
+
   @media (min-width: $medium) {
     &__medium-4 {
       float: left;
