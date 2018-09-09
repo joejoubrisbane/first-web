@@ -1,4 +1,40 @@
-.testimonial{
-    background-color:rgba(255,255,255,0.8);
+.testimonial {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.85rem 1px 1.85rem;
+  margin-top: 3rem;
+
+  @media (min-width: $medium) {
     padding: 0 1.85rem 1px 1.85rem;
+  }
+
+  &__photo {
+    border-radius: 80px;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+
+    @media (min-width: $medium) {
+      margin: 0 auto -80px auto;
+      position: relative;
+      top: -80px;
+      border: 6px solid rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  &__title {
+    color: $mainBlue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+
+  &__subtitle {
+    color: $mainOrange;
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin: 0.25rem 0 1rem 0;
+  }
 }

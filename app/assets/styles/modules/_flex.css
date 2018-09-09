@@ -1,6 +1,10 @@
 .flex{
+   
+
     @media (min-width:$medium){
         width: 80%;
+       
+      
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -10,6 +14,9 @@
     &--medium-4{
         @media (min-width:$medium){
         flex-basis: 28%;
+        /* padding-top: 500px; */
+        margin-top: 120px;
+        display: flex;
         
     }
     }
