@@ -9,9 +9,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.4.0",
     "gulp-svg-sprite": "^1.4.0",
     "gulp-watch": "^4.3.5",
     "postcss-import": "^8.1.2",
